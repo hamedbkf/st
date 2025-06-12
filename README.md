@@ -1,3 +1,8 @@
+Patches applied
+---------------
+- st-scrollback-ringbuffer-0.9.2 [Link](https://st.suckless.org/patches/scrollback/st-scrollback-ringbuffer-0.9.2.diff)
+
+
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
