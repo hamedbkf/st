@@ -93,35 +93,69 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+
+/* Default Terminal colors backup commented */
+	// /* 8 normal colors */
+	// "black",
+	// "red3",
+	// "green3",
+	// "yellow3",
+	// "blue2",
+	// "magenta3",
+	// "cyan3",
+	// "gray90",
+	//
+	// /* 8 bright colors */
+	// "gray50",
+	// "red",
+	// "green",
+	// "yellow",
+	// "#5c5cff",
+	// "magenta",
+	// "cyan",
+	// "white",
+    //
+    //	[255] = 0,
+    //
+	// /* more colors can be added after 255 to use with DefaultXX */
+	// "#cccccc",
+	// "#555555",
+    //	"gray90", /* default foreground colour */
+	//  "black", /* default background colour */
+
+/* End of backup */
+
+
+/* Custom colorscheme */
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#c00000",
+	"#0baf00",
+	"#efa000",
+	"#0d55c5",
+	"#6616b0",
+	"#11c0bb",
+	"#bbbbbb",
 
 	/* 8 bright colors */
 	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#cf3838",
+	"#43ab43",
+	"#daa242",
+	"#4490be",
+	"#9a5ada",
+	"#7bdbdb",
+	"#ffffff",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"black",
+	"#eeeeee",
+	"black", /* default foreground colour */
+	"white", /* default background colour */
 };
 
 
