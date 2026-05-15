@@ -6,6 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "terminus:pixelsize=14:weight=bold:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+"Noto Kufi Arabic:pixelsize=14:weight=bold:antialias=true:autohint=true"
+};
+
 static int borderpx = 1;
 
 /*

@@ -2,6 +2,7 @@ Patches applied
 ---------------
 - st-scrollback-ringbuffer-0.9.2 [Link](https://st.suckless.org/patches/scrollback/st-scrollback-ringbuffer-0.9.2.diff)
 - st-newterm-0.9.diff [Link](https://st.suckless.org/patches/newterm/st-newterm-0.9.diff)
+- st-font2-0.8.5.diff [Link](https://st.suckless.org/patches/font2/st-font2-0.8.5.diff)
 
 
 st - simple terminal
